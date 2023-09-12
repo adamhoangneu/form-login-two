@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* common */
+
+.label {
+    font-size: 14px;
+    color: #fff4f4;
+    line-height: 1.5;
+    padding-left: 7px;
+}
+
+.wrapper-input {
+    border-bottom: 2px solid #adadad;
+    margin-bottom: 37px;
+}
+
+
+/* main content */
+#main-content {
+    background: #f2f2f2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+#container-login {
+    padding: 15px;
+}
+
+.wrapper-login {
+    background: #ffffff;
+    width: 390px;
+    border-radius: 10px;
+    justify-content: center;
+    box-shadow:  0 5px 10px 0 rgba(0,0,0,.1);
+}
+
+.login-form {
+    padding: 77px 55px 33px 55px;
+}
+
+/* login title */
+
+.login-title {
+    font-size: 30px;
+    color: #333;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-bottom: 26px;
+    text-align: center;
+    letter-spacing: -0.5px;
+}
+
+/* wrapper logo login */
+.wrapper-logo-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 48px;
+}
+
+.wrapper-logo-login i {
+    color: #333;
+    font-size: 60px;
+}
+
+/* wrapper input */
+
+.wrapper-input-username-inside {
+    position: relative;
+}
+
+.username-input {
+    padding: 0 5px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    color: #212529;;
+    height: 45px;
+    font-family: "Poppins", sans-serif;
+    /* opacity: 0.8; */
+    font-weight: 300;
+    background-color: transparent;
+}
+
+.login-icon-form {
+    position: absolute;
+    top: 20px;
+    right: 14px;
+    z-index: 2;
+    color: #adadad;
+    font-size: 12px;
+}
+
+input.username-input::placeholder {
+    color: #adadad;
+
+}
+
+/* checkbox wrapper
+.checkbox-wrapper {
+    padding-top: 5px;
+    padding-left: 12px;
+    padding-bottom: 35px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.checkbox-wrapper
+#remember-me {
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+input#remember-me {
+    width: 17px;
+    height: 17px;
+    outline: none;
+    border: none;
+}
+
+input#remember-me:hover {
+    border: none;
+    outline: none;
+}
+
+.checkbox-wrapper
+label {
+    padding-left: 8px;
+    font-size: 12px;
+    color: #fff;
+
+} */
+
+/* login button */
+.wrapper-form-btn {
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.wrapper-form-btn 
+button {
+    border: none;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 0 20px;
+    background: linear-gradient(to right,#21d4fd,#b721ff)
+}
+
+.wrapper-form-btn 
+button:hover {
+    background: linear-gradient(to right, #b721ff, #21d4fd);
+}
+
+/* text center */
+.text-center {
+    padding-top: 115px;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.text-center p {
+    font-size: 13px;
+    color: #000;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.text-center a {
+    text-decoration: none;
+    color: #000;
+}
+
+.text-center a:hover {
+    color: #6a7dfe;
+}
